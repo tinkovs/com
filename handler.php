@@ -1,5 +1,3 @@
-<?php
-
 $url = "https://marketplay.info/api/request";
 
 $amount = htmlspecialchars($_POST['amount'] ?? '');
@@ -15,5 +13,3 @@ $api_key = "e71366079d95b04228fc6482c503a983b99da2e7b17dd6c56780074d0f7e63a2";
 $success_url = "https://bvmy.ru/success.html";
 $fail_url = "https://bvmy.ru/fail.html";
 $notice_url = "https://bvmy.ru";
-
-?>
